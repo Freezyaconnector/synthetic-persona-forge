@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Persona runtime artifacts
+personas/generated/
+personas/cache/
+*.persona.bin
+*.voice.wav
+*.lora.pt
+*.ckpt
+*.safetensors
+
+# Config + secrets
+config/local.toml
+config/*.secret.toml
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# C++ / C# / Java sidecars
+native/build/
+native/obj/
+dotnet/bin/
+dotnet/obj/
+java/target/
+*.class
